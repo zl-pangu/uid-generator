@@ -9,6 +9,7 @@
     <bean id="defaultUidGenerator" class="com.baidu.fsg.uid.impl.DefaultUidGenerator" lazy-init="false">
         <property name="workerIdAssigner" ref="disposableWorkerIdAssigner"/>
 
+        <!--按您的要求指定位和时代。未指定将使用默认值-->
         <!-- Specified bits & epoch as your demand. No specified the default value will be used -->
         <property name="timeBits" value="29"/>
         <property name="workerBits" value="21"/>

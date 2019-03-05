@@ -32,6 +32,8 @@ public class CachedUidGeneratorTest {
     @Resource
     private UidGenerator uidGenerator;
 
+
+
     /**
      * Test for serially generate
      * 
